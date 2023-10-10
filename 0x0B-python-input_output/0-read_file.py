@@ -5,6 +5,8 @@
 def read_file(filename=""):
     """ This function prints utf8 contents to stdout.
     Args:
-    Filename (str): The name of the file to read from """
+    @Filename (string): Absolute or relative path to the file
+    Return: void
+     """
     with open(filename, encoding="uf-8") as f:
         print(f.read(), end="")
